@@ -66,3 +66,14 @@ body{
 .navbar-nav a.nav-link:hover {
     color: #ff9900; /* Set the color for the hover effect */
 }
+
+@media only screen and (max-width:600px)
+{
+    .background{
+        width: 100%;
+        height: 100%;
+    }
+    .inres{
+        width: 100% !important;
+    }
+}
