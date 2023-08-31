@@ -69,7 +69,7 @@ body{
 
 .in{
     border: 2px solid rgb(196, 193, 193);
-    border-radius: 50px;
+    border-radius: 10px;
     margin: 10px;
     padding: 2px 5px;
     text-align: center;
@@ -77,9 +77,23 @@ body{
 }
 .in2{
     border: 2px solid rgb(196, 193, 193);
-    border-radius: 30px;
+    border-radius: 20px;
     margin: 10px;
     padding: 2px 5px;
     text-align: center;
     justify-content: center;
+}
+
+
+
+.navbar-toggler[aria-expanded="true"] {
+    background-color: transparent; 
+}
+@media only screen and (max-width:600px){
+
+    .contactres{
+        width: 100% !important;
+    }
+    .in{border: 2px solid rgb(255, 255, 255);}
+    .in2{border: 2px solid rgb(255, 255, 255);}
 }
