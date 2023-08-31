@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:#f8efb8 !important;
+}
+body{
+    height: 125vh;
+    /* width: 100vw; */
+    /* background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center; */
+    z-index: 1;
+}
+.background{
+    background-image: url(background2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    filter: blur(3px); /* Adjust the blur value to control the level of blurriness */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.logoimg{
+    width: 200px;
+    /* mix-blend-mode: multiply; */
+}
+
+.brdr{
+    border: 2px solid red;
+    margin: 0 20px;
+}
+
+.brush-script-font {
+    font-family: 'Your-Brush-Script-Font', cursive;
+    /* If your font has spaces or special characters in its name, enclose it in single or double quotes */
+}
+.optima-font {
+    font-family: 'Optima', sans-serif;
+    letter-spacing: 2px;
+}
+.courier-font {
+    font-family: 'Courier', monospace;
+}
+.content {
+    /* position: relative; */
+    z-index: 1;
+    text-align: center;
+    /* padding: 20px; */
+    /* color: #fff; Add a text color that contrasts with the background */
+}
+.navclr{
+    color: #fbfbfb !important;
+}
+.navbar-nav a.nav-link {
+    color: #000; /* Set the initial color */
+    transition: color 0.3s; /* Add a smooth transition for the color change */
+}
+
+.navbar-nav a.nav-link:hover {
+    color: #ff9900; /* Set the color for the hover effect */
+}
+.card-text{
+    color: rgb(238, 255, 249) !important;
+    width: 536px;
+}
+.card-title{
+    /* color: rgb(61, 255, 67) !important; */
+}
