@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    color:#f8efb8 !important;
+    color:#f8efb8;
 }
 body{
     height: 125vh;
@@ -69,4 +69,14 @@ body{
 }
 .card-title{
     /* color: rgb(61, 255, 67) !important; */
+}
+
+
+
+.row{
+    margin-top: 50px;
+    color: #fbfbfb;
+}
+p{
+    color: #fbfbfb;
 }
